@@ -62,6 +62,12 @@ div {
 
 table {
 	width: 100%;
+	border-collapse: collapse;
+}
+
+
+tr:nth-child(even) {
+	background-color: white;
 }
 
 th {
@@ -71,9 +77,6 @@ th {
 	text-align: center;
 }
 
-tr:nth-child(even) {
-	background-color: white;
-}
 
 td{
 	text-align: left;
