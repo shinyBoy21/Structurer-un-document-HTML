@@ -21,7 +21,7 @@ h2 {
 
 figure {
 	margin-left: 0px;
-	background-color: #1f1f14;
+	background-color: #10100a;
 	text-align: center;
 	border-style: solid;
 	border-width: 5px;
@@ -71,7 +71,7 @@ tr:nth-child(even) {
 }
 
 th {
-	background-color: #1f1f14;
+	background-color: #10100a;
 	color: white;
 	height: 25px;
 	text-align: center;
