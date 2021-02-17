@@ -1,11 +1,11 @@
 @font-face {
 	font-family: 'Mafont';
-	src: url('baskervi.ttf');
+	src: url('NotoSansJP-Medium.otf');
 }
 
 body {
 	background-color: #C7C7C7;
-	font-family: '-Apple' ,Mafont, Times New Roman, Times, sans-serif;
+	font-family: 'Mafont', Times New Roman, Times, sans-serif;
 	font-size: 17px;
 }
 
