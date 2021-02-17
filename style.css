@@ -1,11 +1,20 @@
+@font-face {
+	font-family: 'Mafont';
+	src: url('baskervi.ttf');
+}
+
 body {
-	background-color: #ebebe0;
-	font-family: 'Times New Roman', Times, sans-serif;
+	background-color: #C7C7C7;
+	font-family: '-Apple' ,Mafont, Times New Roman, Times, sans-serif;
 	font-size: 17px;
 }
 
 .para1 {
 	text-align: left;
+}
+
+.block1 {
+	background-color: #B6B6B6;
 }
 
 h1 {
@@ -17,6 +26,15 @@ h1 {
 h2 {
 	color: red;
 	font-size: 25px;
+}
+
+td>a {
+	text-decoration: none;
+	color: black;
+	font-weight: lighter ;
+}
+td>a:hover {
+ background-color: #989898;
 }
 
 figure {
@@ -65,6 +83,10 @@ table {
 	border-collapse: collapse;
 }
 
+.table3 {
+	background-color: black;
+}
+
 
 tr:nth-child(even) {
 	background-color: white;
@@ -82,9 +104,7 @@ td{
 	text-align: left;
 }
 
-.table3 {
-	background-color: #adad85;
-}
+
 
 a {
 	color: red;
